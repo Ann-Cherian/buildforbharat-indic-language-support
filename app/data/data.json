@@ -1,162 +1,182 @@
-{
-  "1": {
+[
+  {
+    "id": 1,
     "brand": "HP",
     "name": "15s",
     "processor": "Intel Core i3-1125G4",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "36,990"
+    "price": 36990
   },
-  "2": {
+  {
+    "id": 2,
     "brand": "Dell",
     "name": "15 Vostro",
     "processor": "Intel Core i5-1135G7",
     "ram": "8 GB",
     "storage": "1 TB HDD",
-    "price": "47,990"
+    "price": 47990
   },
-  "3": {
+  {
+    "id": 3,
     "brand": "Acer",
     "name": "Aspire 3",
     "processor": "Intel Core i3-1215U",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "36,990"
+    "price": 36990
   },
-  "4": {
+  {
+    "id": 4,
     "brand": "ASUS",
     "name": "Vivobook 16X",
     "processor": "AMD Ryzen 5-5600H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "49,990"
+    "price": 49990
   },
-  "5": {
+  {
+    "id": 5,
     "brand": "ASUS",
     "name": "Vivobook 15",
     "processor": "Intel Core i5-12500H",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "60,990"
+    "price": 60990
   },
-  "6": {
+  {
+    "id": 6,
     "brand": "ASUS",
     "name": "TUF Gaming F15",
     "processor": "Intel Core i5-11400H",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "57,990"
+    "price": 57990
   },
-  "7": {
+  {
+    "id": 7,
     "brand": "Acer",
     "name": "Aspire 5",
     "processor": "Intel Core i5-1240P",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "56,990"
+    "price": 56990
   },
-  "8": {
+  {
+    "id": 8,
     "brand": "Dell",
     "name": "G15-5520",
     "processor": "Intel Core i5-12500H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "67,890"
+    "price": 67890
   },
-  "9": {
+  {
+    "id": 9,
     "brand": "HP",
     "name": "Victus",
     "processor": "AMD Ryzen 5-5600H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "51,990"
+    "price": 51990
   },
-  "10": {
+  {
+    "id": 10,
     "brand": "ASUS",
     "name": "TUF Gaming F15",
     "processor": "Intel Core i7-11800H",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "72,990"
+    "price": 72990
   },
-  "11": {
+  {
+    "id": 11,
     "brand": "Lenovo",
     "name": "IdeaPad Gaming 3",
     "processor": "Intel Core i5-11320H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "52,190"
+    "price": 52190
   },
-  "12": {
+  {
+    "id": 13,
     "brand": "MSI",
     "name": "GF63 Thin",
     "processor": "Intel Core i7-11800H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "59,990"
+    "price": 59990
   },
-  "13": {
+  {
+    "id": 13,
     "brand": "ASUS",
     "name": "TUF Gaming F15",
     "processor": "Intel Core i5-11400H",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "52,990"
+    "price": 52990
   },
-  "14": {
+  {
+    "id": 14,
     "brand": "MSI",
     "name": "Modern 14",
     "processor": "Intel Core i7-1255U",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "54,990"
+    "price": 54990
   },
-  "15": {
+  {
+    "id": 15,
     "brand": "Lenovo",
     "name": "Ideapad 3",
     "processor": "Intel Core i3-1115G4",
     "ram": "8 GB",
     "storage": "512 GB SSD",
-    "price": "32,490"
+    "price": 32490
   },
-  "16": {
+  {
+    "id": 16,
     "brand": "Apple",
     "name": "MacBook Pro",
     "processor": "M3 Max",
     "ram": "48 GB",
     "storage": "1 TB SSD",
-    "price": "3,99,900"
+    "price": 399900
   },
-  "17": {
+  {
+    "id": 17,
     "brand": "ASUS",
     "name": "ROG Strix G17",
     "processor": "AMD Ryzen 7-6800HS",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "88,990"
+    "price": 88990
   },
-  "18": {
+  {
+    "id": 18,
     "brand": "Lenovo",
     "name": "Legion 5 Pro",
     "processor": "AMD Ryzen 7-5800H",
     "ram": "16 GB",
     "storage": "1 TB SSD",
-    "price": "94,990"
+    "price": 94990
   },
-  "19": {
+  {
+    "id": 19,
     "brand": "MSI",
     "name": "Sword 15 A12VF",
     "processor": "Intel Core i7-12650H",
     "ram": "16 GB",
     "storage": "1 TB SSD",
-    "price": "1,05,990"
+    "price": 105990
   },
-  "20": {
+  {
+    "id": 20,
     "brand": "Acer",
     "name": "Predator Helios Neo 16",
     "processor": "Intel Core i7-13700HX",
     "ram": "16 GB",
     "storage": "512 GB SSD",
-    "price": "1,14,990"
+    "price": 114990
   }
-}
+]
