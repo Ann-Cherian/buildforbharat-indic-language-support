@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import data from "../data/data.json";
 import { Laptop } from "../lib/types";
 import { showCards } from "../lib/utils";
+import { laptops } from "../data";
 
 export default function Search() {
   const [results, setResults] = useState<Laptop[]>([]);
@@ -12,9 +12,9 @@ export default function Search() {
     const query = formData.get("query");
     const results: Laptop[] = [];
 
-    data.forEach((val) => {
-      if (val.brand === query) {
-        results.push(val);
+    laptops.forEach((laptop) => {
+      if (laptop.brand === query) {
+        results.push(laptop);
       }
     });
 

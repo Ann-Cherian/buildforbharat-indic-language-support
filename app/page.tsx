@@ -1,5 +1,4 @@
 import { redirect } from "next/navigation";
-
 const loadDiscoverPage = () => {
   redirect("/discover");
 };
