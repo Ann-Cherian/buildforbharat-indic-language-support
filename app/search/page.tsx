@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Laptop } from "../lib/types";
 import { showCards } from "../lib/utils";
 import { laptops } from "../data";
+import { CardAction } from "../lib";
 
 export default function Search() {
   const [results, setResults] = useState<Laptop[]>([]);
@@ -32,7 +33,7 @@ export default function Search() {
         />
         <button type="submit">Search</button>
       </div>
-      {showCards(results)}
+      {showCards(CardAction.ADD, results)}
     </form>
   );
 }

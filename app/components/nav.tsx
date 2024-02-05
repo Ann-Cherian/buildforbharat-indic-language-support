@@ -11,7 +11,7 @@ export default function Nav() {
       <Link href="/discover">Discover</Link>
       <Link href="/search">Search</Link>
       <Link href="/cart">Cart ({cartItemsCount})</Link>
-      <h1>Orders</h1>
+      <Link href="/orders">Orders</Link>
       <h1>Customer Support</h1>
     </div>
   );

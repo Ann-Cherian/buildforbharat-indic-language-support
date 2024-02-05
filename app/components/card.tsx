@@ -1,22 +1,28 @@
 "use client";
 
-import { CardAction, addItem, removeItem, useAppDispatch } from "../lib";
+import {
+  CardAction,
+  addCartItem,
+  removeCartItem,
+  useAppDispatch,
+} from "../lib";
 import { Laptop } from "../lib/types";
 
 type CardProps = {
   action: CardAction;
   laptop: Laptop;
+  message: string;
 };
 
-export default function Card({ action, laptop }: CardProps) {
+export default function Card({ action, laptop, message }: CardProps) {
   const dispatch = useAppDispatch();
 
   const addToCart = () => {
-    dispatch(addItem(laptop));
+    dispatch(addCartItem(laptop));
   };
 
   const removeFromCart = () => {
-    dispatch(removeItem(laptop));
+    dispatch(removeCartItem(laptop));
   };
 
   const showAction = (action: CardAction) => {
@@ -26,12 +32,14 @@ export default function Card({ action, laptop }: CardProps) {
           Add to Cart
         </button>
       );
-    } else {
+    } else if (action === CardAction.REMOVE) {
       return (
         <button className="self-end" onClick={removeFromCart}>
           Remove
         </button>
       );
+    } else {
+      return <p>Status: {message}</p>;
     }
   };
 
