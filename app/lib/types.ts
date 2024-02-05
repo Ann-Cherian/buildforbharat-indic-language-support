@@ -7,3 +7,8 @@ export type Laptop = {
   storage: string;
   price: number;
 };
+
+export type Message = {
+  id: number;
+  message: string;
+};

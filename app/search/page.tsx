@@ -5,6 +5,7 @@ import { Laptop } from "../lib/types";
 import { showCards } from "../lib/utils";
 import { laptops } from "../data";
 import { CardAction } from "../lib";
+import { Form } from "../components";
 
 export default function Search() {
   const [results, setResults] = useState<Laptop[]>([]);
@@ -23,17 +24,13 @@ export default function Search() {
   }
 
   return (
-    <form action={onSubmit}>
-      <div className="flex border-b pr-6 gap-x-6">
-        <input
-          className="bg-black flex-1 border-r p-6"
-          type="text"
-          name="query"
-          placeholder="Enter laptop brand..."
-        />
-        <button type="submit">Search</button>
-      </div>
+    <>
+      <Form
+        placeholder="Enter laptop brand..."
+        action="Search"
+        onSubmit={onSubmit}
+      />
       {showCards(CardAction.ADD, results)}
-    </form>
+    </>
   );
 }

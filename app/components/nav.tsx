@@ -12,7 +12,7 @@ export default function Nav() {
       <Link href="/search">Search</Link>
       <Link href="/cart">Cart ({cartItemsCount})</Link>
       <Link href="/orders">Orders</Link>
-      <h1>Customer Support</h1>
+      <Link href="/support">Customer Support</Link>
     </div>
   );
 }

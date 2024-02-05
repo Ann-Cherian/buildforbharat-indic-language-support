@@ -8,6 +8,11 @@ import cartReducer, {
   selectCartItems,
   selectCartPrice,
 } from "./features/cart/cartSlice";
+import chatReducer, {
+  ChatState,
+  addChatMessage,
+  selectChatMessages,
+} from "./features/chat/chatSlice";
 import ordersReducer, {
   OrdersState,
   addOrdersItem,
@@ -15,22 +20,26 @@ import ordersReducer, {
 } from "./features/orders/ordersSlice";
 import { useAppDispatch, useAppSelector, useAppStore } from "./hooks";
 import { AppDispatch, AppStore, RootState, makeStore } from "./store";
-import { Laptop } from "./types";
+import { Laptop, Message } from "./types";
 import { showCards } from "./utils";
 
 export type {
+  AppDispatch,
   AppStore,
   CartState,
+  ChatState,
   Laptop,
-  AppDispatch,
+  Message,
   OrdersState,
   RootState,
 };
 export {
   addCartItem,
+  addChatMessage,
   addOrdersItem,
   CardAction,
   cartReducer,
+  chatReducer,
   clearCart,
   makeStore,
   ordersReducer,
@@ -38,6 +47,7 @@ export {
   selectCartCount,
   selectCartItems,
   selectCartPrice,
+  selectChatMessages,
   selectOrdersItems,
   showCards,
   useAppDispatch,

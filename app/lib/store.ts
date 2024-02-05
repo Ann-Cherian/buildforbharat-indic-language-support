@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { cartReducer, ordersReducer } from ".";
+import { cartReducer, chatReducer, ordersReducer } from ".";
 
 export const makeStore = () =>
   configureStore({
-    reducer: { cart: cartReducer, orders: ordersReducer },
+    reducer: { cart: cartReducer, chat: chatReducer, orders: ordersReducer },
   });
 
 export type AppStore = ReturnType<typeof makeStore>;
